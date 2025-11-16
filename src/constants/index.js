@@ -27,117 +27,71 @@ import {
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: css,
-        name: "CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
-        imageUrl: git,
-        name: "Git",
-        type: "Version Control",
-    },
-    {
-        imageUrl: github,
-        name: "GitHub",
-        type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+    { imageUrl: javascript, name: "JavaScript", type: "Frontend" },
+    { imageUrl: typescript, name: "TypeScript", type: "Frontend" },
+    { imageUrl: react, name: "React", type: "Frontend" },
+    { imageUrl: html, name: "HTML", type: "Frontend" },
+    { imageUrl: css, name: "CSS", type: "Frontend" },
+    { imageUrl: tailwindcss, name: "Tailwind CSS", type: "Frontend" },
+    { imageUrl: nodejs, name: "Node.js", type: "Backend" },
+    { imageUrl: mongodb, name: "MongoDB", type: "Database" },
+    { imageUrl: express, name: "Express.js", type: "Backend" },
+    { imageUrl: nextjs, name: "Next.js", type: "Frontend" },
+
+    { imageUrl: git, name: "Git", type: "Version Control" },
+    { imageUrl: github, name: "GitHub", type: "Version Control" },
+
 ];
+
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Computer Vision Engineer",
+        company_name: "Robocol Initiative – Universidad de los Andes",
+        icon: car,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Aug 2023 – Jul 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Designed and implemented a real-time 3D vision algorithm using ROS, Python, and OpenCV.",
+            "Reduced rover navigation error by 15% through improved perception and object-manipulation accuracy.",
+            "Collaborated with robotics, perception, and navigation teams to optimize system performance."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Data Structures & Algorithms – Academic Assistant",
+        company_name: "Universidad de los Andes",
+        icon: car,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Aug 2024 – Jul 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Supported students during labs, improving algorithmic understanding and coding skills.",
+            "Provided individualized feedback and optimized teaching resources."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "Mobile Developer – FreshLink",
+        company_name: "Academic Project",
+        icon: car,
         iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2025 – Jul 2025",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Co-created a Flutter app connecting local shops with users to sell food surpluses.",
+            "Developed core UI and backend integration, enabling a potential 10% waste reduction in pilot tests."
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "Chrome Extension Developer – Listen",
+        company_name: "Personal Project",
+        icon: car,
         iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        date: "Jul 2024 – Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Built a multi-language text-to-speech Chrome extension using JavaScript and React.",
+            "Reached 315+ monthly active users and maintained Web Store deployment.",
         ],
-    },
+    }
 ];
+
 
 export const socialLinks = [
     {
@@ -148,56 +102,47 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/jvegav',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/josue-vega-valbuena/',
     }
 ];
 
+
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
-    },
-    {
-        iconUrl: threads,
-        theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
-    },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Listen – Chrome Extension',
+        description:
+            'Multi-language text-to-speech Chrome extension built with JavaScript and React. Helps users learn pronunciation instantly and reached over 315 monthly active users.',
+        link: "YOUR_LISTEN_GITHUB_LINK",
     },
     {
-        iconUrl: snapgram,
-        theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        iconUrl: car,
+        theme: 'btn-back-green',
+        name: 'FreshLink – Mobile App',
+        description:
+            'Flutter mobile app connecting users with local shops to buy food surpluses at reduced prices. Designed to reduce food waste by over 10% in early pilots.',
+        link: "YOUR_FRESHLINK_GITHUB_LINK",
     },
     {
-        iconUrl: estate,
-        theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        iconUrl: car,
+        theme: 'btn-back-red',
+        name: 'BlockIt – Productivity Chrome Extension',
+        description:
+            'Website-blocking extension that enhances productivity. Users define distracting URLs and are automatically redirected to stay focused. Includes a clean UI and customizable lists.',
+        link: "YOUR_BLOCKIT_GITHUB_LINK",
     },
     {
-        iconUrl: summiz,
+        iconUrl: car,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
-    }
+        name: 'INSA Student Marketplace',
+        description:
+            'A full-stack marketplace helping INSA exchange and double-degree students trade items they no longer use. Facilitates sustainable reuse of furniture, bikes, electronics, and dorm essentials.',
+        link: "YOUR_MARKETPLACE_GITHUB_LINK",
+    },
 ];
