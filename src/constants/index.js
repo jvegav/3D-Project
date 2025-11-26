@@ -145,4 +145,12 @@ export const projects = [
             'A full-stack marketplace helping INSA exchange and double-degree students trade items they no longer use. Facilitates sustainable reuse of furniture, bikes, electronics, and dorm essentials.',
         link: "YOUR_MARKETPLACE_GITHUB_LINK",
     },
+    {
+        iconUrl: car,
+        theme: 'btn-back-purple',
+        name: 'SDG Text Analytics – Machine Learning Project',
+        description:
+            'Cocréé et développé une API REST et une application web pour classifier automatiquement des opinions citoyennes selon les Objectifs de Développement Durable (ODS 3, 4 et 5). Le projet inclut le traitement de texte via pipelines de scikit-learn, vectorisation TF-IDF, classification avec KNeighborsClassifier, réentraînement du modèle avec de nouvelles données, et visualisation des résultats pour l’utilisateur final.',
+        link: "YOUR_SDG_GITHUB_LINK",
+    },
 ];
