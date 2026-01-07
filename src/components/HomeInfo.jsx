@@ -9,7 +9,7 @@ const renderConstant = {
       <h1 className='"sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
         Hi, I am <span className='font-semibold'>Josue</span>
         <br/>
-        A SoftWare Engineer From Colombia
+        A Colombian Software Engineer based in Lyon, France.
       </h1>
     ),
     2: (

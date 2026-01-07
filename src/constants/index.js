@@ -43,7 +43,6 @@ export const skills = [
 
 ];
 
-
 export const experiences = [
     {
         title: "Computer Vision Engineer",
@@ -77,6 +76,19 @@ export const experiences = [
         points: [
             "Co-created a Flutter app connecting local shops with users to sell food surpluses.",
             "Developed core UI and backend integration, enabling a potential 10% waste reduction in pilot tests."
+        ],
+    },
+    {
+        title: "Full-Stack Developer – EcoTrade",
+        company_name: "Personal Project",
+        icon: car,
+        iconBg: "#cdb4db",
+        date: "Oct 2024 – Present",
+        points: [
+            "Designed and developed a full-stack circular economy platform for international students at INSA Lyon.",
+            "Implemented user authentication, product listings, and real-time interactions using modern web technologies.",
+            "Deployed the frontend on Vercel and the backend API on Render, ensuring scalability and reliability.",
+            "Promoted sustainable reuse of furniture, bikes, and electronics, reducing waste and student setup costs."
         ],
     },
     {
@@ -119,7 +131,7 @@ export const projects = [
         name: 'Listen – Chrome Extension',
         description:
             'Multi-language text-to-speech Chrome extension built with JavaScript and React. Helps users learn pronunciation instantly and reached over 315 monthly active users.',
-        link: "YOUR_LISTEN_GITHUB_LINK",
+        link: "https://github.com/jvegav/Listen-Chrome-Extension",
     },
     {
         iconUrl: car,
@@ -127,7 +139,7 @@ export const projects = [
         name: 'FreshLink – Mobile App',
         description:
             'Flutter mobile app connecting users with local shops to buy food surpluses at reduced prices. Designed to reduce food waste by over 10% in early pilots.',
-        link: "YOUR_FRESHLINK_GITHUB_LINK",
+        link: "https://github.com/Grupo43Moviles20251/Flutter",
     },
     {
         iconUrl: car,
@@ -135,22 +147,23 @@ export const projects = [
         name: 'BlockIt – Productivity Chrome Extension',
         description:
             'Website-blocking extension that enhances productivity. Users define distracting URLs and are automatically redirected to stay focused. Includes a clean UI and customizable lists.',
-        link: "YOUR_BLOCKIT_GITHUB_LINK",
+        link: "https://github.com/jvegav/SiteBlock-Chrome-Extension",
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-yellow',
-        name: 'INSA Student Marketplace',
-        description:
-            'A full-stack marketplace helping INSA exchange and double-degree students trade items they no longer use. Facilitates sustainable reuse of furniture, bikes, electronics, and dorm essentials.',
-        link: "YOUR_MARKETPLACE_GITHUB_LINK",
-    },
+    iconUrl: car,
+    theme: 'btn-back-yellow',
+    name: 'EcoTrade – Sustainable Student Marketplace',
+    description:
+        'EcoTrade is a full-stack circular economy web platform designed for international students at INSA Lyon and similar institutions. It allows students to buy, sell, and reuse essential items such as furniture, bikes, and electronics, reducing waste, lowering setup costs, and fostering a sustainable and supportive student community.',
+    link: 'https://eco-trade-one.vercel.app/'
+    }
+,
     {
         iconUrl: car,
         theme: 'btn-back-purple',
         name: 'SDG Text Analytics – Machine Learning Project',
         description:
             'Cocréé et développé une API REST et une application web pour classifier automatiquement des opinions citoyennes selon les Objectifs de Développement Durable (ODS 3, 4 et 5). Le projet inclut le traitement de texte via pipelines de scikit-learn, vectorisation TF-IDF, classification avec KNeighborsClassifier, réentraînement du modèle avec de nouvelles données, et visualisation des résultats pour l’utilisateur final.',
-        link: "YOUR_SDG_GITHUB_LINK",
+        link: "https://github.com/jvegav/Proyecto-1-pipeline",
     },
 ];
